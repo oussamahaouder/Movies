@@ -74,7 +74,14 @@ public class MovieDetail extends AppCompatActivity {
 
 
                 }
-                textView2.setText ("Genres : "+MovieGenre.toString());
+
+                String gr = "";
+                for(int i = 0; i<MovieGenre.size(); i++)
+                {
+                    gr = gr +" - "+ MovieGenre.get(i);
+
+                }
+                textView2.setText( "Genres : "+gr);
             }
 
 

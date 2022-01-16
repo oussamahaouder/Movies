@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements MoviesAdapter.OnM
         }
         mBottomNavigationView=findViewById(R.id.activity_main_bottom_navigation);
         mBottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
+
+
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
