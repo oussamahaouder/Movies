@@ -7,7 +7,6 @@
 ## Authors
 
 - [@HaouderOussama](https://haouderoussama.netlify.app/)
-- [@OmarSalhi] 
 
 
 ## Features
